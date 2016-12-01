@@ -1,0 +1,397 @@
+html{
+   font-family: "sans serif","helvetica";
+   font-size: 100%;
+}
+
+body{
+  background-image: url(../imagens/fundo-principal.png);  
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-content: center;
+  margin: 0;
+}
+
+section{
+    display: block;
+}
+
+.navegacao{
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  padding: 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  min-height: 100%;
+  align-content : center;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 26pt;
+    color: #000;
+}
+
+footer{
+    height: 100%;
+    background-color: #2e6fa7;
+    color: white;
+    padding: 25px;
+    font-size: 16pt;
+    text-align: center;
+    
+}
+
+.footer{
+    font-size: 11pt;
+    color: white;
+    width: 100%;
+    
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+/* Menu do site*/
+nav{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #0c5e7c;*/
+    background-image: url("../imagens/fundo-menu.jpg");
+    float: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.fixar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  align-content : center;
+}
+
+/* SEÇÃO PRINCIPAL*/
+#principal{
+    height: 500px;
+    width: 100%;
+}
+
+#subir{
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; 
+    right:5%;
+    cursor:pointer;
+    color:#000;
+    font-family:verdana;
+    font-size:11px;
+}
+
+/*BOTAO SUBIR*/
+
+#subir {
+	position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
+}
+
+#subir a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#subir a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#subir span {
+	width: 108px;
+	height: 300px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(../imagens/seta-cima.png) no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#subir a:hover span {
+	background-color: #777;
+}
+
+
+#logomarca{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    
+}
+
+#destaques{
+    /*height: 300px;*/
+    background-color: #fff;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#destaque-contato{
+    /*height: 300px;*/
+    background-image: url(../imagens/fundo-contato.jpg);
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#destaque-oqe{
+    /*height: 300px;*/
+    background-image: url(../imagens/fundo-oquee.png);
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#destaque-plano{
+    /*height: 300px;*/
+    background-image: url(../imagens/fundo-plano.jpg);
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#destaque-funcionalidade{
+    /*height: 300px;*/
+    background-image: url(../imagens/fundo-funcionalidade.jpg);
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#destaque-cf{
+    /*height: 300px;*/
+    background-image: url(../imagens/fundo-comof.jpg);
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#dataMenu{
+    align-content: center;
+    font-size: 10pt;
+    color: #eee;
+    margin: 15px;
+    width: 100%;
+
+}
+
+#oqe{
+	top:0;
+	left:0;
+	z-index:11;
+	background-color:#eee;
+	width:100%;
+	height:100%;
+	opacity: .20;
+	filter: alpha(opacity=10);
+}
+
+#caixaTexto{
+    padding: 10px;
+    width: 50%;
+    text-align: justify;
+    background-color: #e1e1e1;
+    margin: 10px; 
+}
+
+#caixaTextoCf{
+    padding: 10px;
+    width: 50%;
+    text-align: justify;
+    margin: 10px; 
+    align-content: center;
+}
+
+#tituloCf{
+    font-size: 24pt;
+    background-color: #00000;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*FORMULÁRIO */
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 12px;
+    max-width: 500px;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+
+
+    input:hover, textarea:hover, input:focus, textarea:focus {
+
+        box-shadow: 5px 0px 9px #ccc;
+        background-color: #eee;
+        color: black;
+
+    }
+
+.submit input {
+    background-color: #eee;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 10px;
+    color: #000000;
+}
+
+  /* BOTÃO BÁSICO */
+     
+    .botao {
+    display: inline-block;
+    background-color: #487015;
+    color: #FFF;
+    padding: 20px 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    }
+    
+        .botao2 {
+    display: inline-block;
+    background-color: #d58512;
+    color: #FFF;
+    padding: 20px 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    }
+    
+    .botao:hover {
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+    cursor: pointer;
+    }
+    
+    /* CAIXAS EM FUNCIONALIDADES*/
+    
+    #tabela1{
+    border: 1px solid #1E679A;
+   width: 280px;
+   padding: 5px;
+}
+#cabtab1{
+   background-color: #1E679A;
+   font-weight: bold;
+   color: #ffffff;
+   padding: 10px;
+}
+#corpotab1{
+   padding: 10px;
+   background-color: #ffffcc;
+} 
